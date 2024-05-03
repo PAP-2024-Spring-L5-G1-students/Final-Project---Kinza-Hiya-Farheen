@@ -1,0 +1,144 @@
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(126, 58, 52);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .products {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .products option {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .products option:hover {
+    background-color: #ddd;
+}
+ 
+  .dropdown:hover .products {
+    display: block;
+}
+
+  .dropdown:hover .dropbtn {
+    background-color: rgb(116, 69, 69);
+}
+/* Dropdown Button Styles end*/
+/* Navbar Styles*/
+.navbar {
+    background-color: #bf2a2a;
+    color: white;
+    padding: 16px;
+    font-size: 1.6em;
+    border: none;
+    margin: 0;
+  }
+  .btns{
+    background-color: rgb(183, 135, 135);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: white;
+    text-decoration: none;
+  }
+  #donate{
+    background-color: rgb(183, 135, 135);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: white;
+    text-decoration: none;
+    float: right;   
+  }
+  
+  /* About Page*/ 
+  #f-img,
+  #k-img, 
+  #h-img {
+    width: 500px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 2%;
+    display: flex;
+  }
+
+  #mission {
+    text-align: center;
+  }
+
+  #aboutDevLine {
+    text-align: center;
+  }
+
+  #devSection {
+    display: flex;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+
+  #hiya,
+  #kinza,
+  #farheen {
+    text-align: center;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .text1,
+  .text2,
+  .text3 {
+    margin: auto;
+    width: fit-content;
+    height: 60px;
+
+    /* background-color: #8fcfb1;
+    border-radius: 5%;
+    border-width: 5px;
+    border-color: #1B4332;
+    border-style: ridge;
+    color: #1B4332; */
+    
+  }
+
+
+  /* Fonts*/ 
+
+  
+  p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: black;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-decoration: 3px underline;
+    text-decoration-color: green;
+    text-shadow: 2px 2px red;
+  }
+  
+#logo{
+  width: 15%;
+  height: 30%;
+}
+   
