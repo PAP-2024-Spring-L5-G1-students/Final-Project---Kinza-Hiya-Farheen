@@ -25,13 +25,13 @@
 
         </nav>
     </div>
-
+    <h1 class = "slogan">Welcome to Azaadi</h1>
+    <h3 class = "slogan">A simple search-engine made to display makeup products that don't support genocide</h3>
     <form id="product">
 
-        <div class = "dropdown">
-            <!-- <button class = "dropbtn">Search by brand</button> -->
+        <div class = "dropbtns">
             <div class = "someProducts">
-                <label for = "products">Search by Products</label>
+                <label for = "products">Search by Product</label>
                 <select id = "products" name = "products">
                     <option value = "Blank"> </option>
                     <option value = "TopFoundation">Foundation</option>
@@ -40,51 +40,34 @@
                     <option value = "TopContour">Countour</option>
                     <option value = "TopBrowProduct">Brow Products</option>
                     <option value = "TopMascara">Mascara</option>
-                </select>
-                    
+                </select> 
             </div>
         </div>
-        <input type="submit" value="submit">
-    </form>
-    
-        <form id="brand">
-
-            <div class = "dropdown">
-                <!-- <button class = "dropbtn">Search by brand</button> -->
-                <div class = "brands">
+            <div class = "dropbtns">
+                <div class = "brandss">
                     <label for = "brands">Search by Brand</label>
                     <select id = "brands" name = "brands">
                         <option value = "Blank"> </option>
-                        <option id="huda" value = "Huda Beauty">Huda Beauty</option>
-                        <option value = "Kulfi Beauty">Kulfi Beauty</option>
-                        <option value = "Lawless">Lawless</option>
-                        <option value = "Pat McGrath Labs">Pat McGrath Labs</option>
-                        <option value = "One Size">One Size</option>
-                        <option value = "Simi Haze Beauty">Simi Haza Beauty</option>
-                        <option value = "Charlotte Tilbury">Charlotte Tilbury</option>
-                        <option value = "Milk Makeup">Milk Makeup</option>
-                        <option value = "Hindash">Hindash</option>
-                        <option value = "Shiseido">Shiseido</option>
-                        <option value = "Stila">Stila</option>
-                        <option value = "Pixi Beauty">Pixi Beauty</option>
                     </select>
                         
                 </div>
             </div>
-            <input type="submit" value="submit">
+            <div id ="container">
+                <button id = "shopping" type = "submit">Start Shopping!</button>
+            </div>
         </form>
-    <ul id="som"></ul>
+        
+    <div id="som"></div>
 
 </header>
 <main>
-    
+  
 </main>
 <script src="frontend.js"></script>
+    <footer>
+        <div id = "footer">
+            <p>&copy; 2024 Azaadi. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
-
-<footer>
-    <div id = "footer">
-        <p>&copy; 2024 Azaadi. All rights reserved.</p>
-    </div>
-</footer>
 </html>

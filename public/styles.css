@@ -47,26 +47,48 @@
     padding: 16px;
     font-size: 1.6em;
     border: none;
-    margin: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+    
   }
   .btns{
     background-color: rgb(183, 135, 135);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     color: white;
     text-decoration: none;
+    margin-right: 20px;
+    border-radius: 10%;
+  }
+  .btns:hover{
+    background-color: rgb(168, 225, 168);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 10%;
   }
   #donate{
     background-color: rgb(183, 135, 135);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     color: white;
     text-decoration: none;
-    float: right;   
+    float: right;  
+    border-radius: 10%; 
   }
-  
+  #donate:hover{
+    background-color: rgb(168, 225, 168);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: white;
+    text-decoration: none;
+    float: right;  
+    border-radius: 10%;
+  }
   /* About Page*/ 
   #f-img,
   #k-img, 
   #h-img {
+    aspect-ratio: 1;
     width: 500px;
     border-color: black;
     border-width: 10px;
@@ -88,6 +110,11 @@
     text-align: center;
     margin-top: 150px;
     margin-bottom: 100px;
+    animation-name: slideup;
+    animation-duration: 2s;
+  }
+  @keyframes slideup{
+    from {transform: translateY(300%)} 
   }
 
   #hiya,
@@ -118,7 +145,7 @@
   /* Fonts*/ 
 
   
-  p {
+  p,h3 {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -137,8 +164,103 @@
     text-shadow: 2px 2px red;
   }
   
+  .slogan{
+    text-align: center;
+  }
+
 #logo{
   width: 15%;
   height: 30%;
 }
    
+/* Fonts End */ 
+/* Main Page */ 
+
+#shopping {
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(168, 225, 168);
+  border-color: #bf2a2a;
+  border-width: 3px;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+}
+#container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 30px;
+  padding: 10px;
+}
+#products {
+  font-size: 1.5em;
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(168, 225, 168);
+  width: 300px;
+  border-width: 3px;
+  border-color: #bf2a2a;
+  border-radius: 10px;
+}
+
+#brands {
+  font-size: 1.5em;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 20px;
+  background-color: rgb(168, 225, 168);
+  width: 300px;
+  border-width: 3px;
+  border-color: #bf2a2a;
+  border-radius: 10px;
+}
+
+.dropbtns {
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.response {
+  font-size: 1.5em;
+  text-align: center;
+  margin: auto;
+  background-color: black;
+  border-color: #bf2a2a;
+  border-width: 3px;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  color: #ddd;
+  /* text-align: center;
+  padding: 10px;
+  font-size: 1.6em;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  background-color: rgb(168, 225, 168);
+  width: 50px;
+  border-width: 3px;
+  border-color: #bf2a2a;
+  border-radius: 10px;  */
+}
+
+#som{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 30px;
+  padding: 10px;
+}
+
+body{
+  position: relative;
+  margin: 0 auto 0;
+  padding-top: 0px;
+}
+
+#footer {
+  font-family: "DM Sans", sans-serif;;
+  text-align: center;
+  background-color: #bf2a2a;
+  margin-top: 800px;
+  padding: 20px 0px 20px 0px;
+  font-size: 1.5em;
+}
